@@ -19,4 +19,9 @@ public class Shiba extends Dog{
 
 //    override sound() here
 
+    // overriding sound() method from Dog class w/ Shiba's very own sound
+    @Override
+    public String sound(){
+        return("To the MOOOOOOOOOOO");
+    }
 }
